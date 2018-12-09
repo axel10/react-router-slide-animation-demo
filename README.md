@@ -1,4 +1,4 @@
-react-tieba
+react-router-slide-animation
 =========================
 
 react的路由滑动动画演示。
