@@ -1,0 +1,47 @@
+:global{
+  html, body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+  }
+
+  ul, ol, li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  h1,h2,h3,h4,h5,h6{
+    font-weight: normal;
+  }
+  input{
+    outline: none;
+  }
+  p{
+    display: block;
+  }
+  a{
+    text-decoration: none;
+  }
+  input[type='text']{
+    border: none;
+  }
+  textarea{
+    border: none;
+    width: 100%;
+    outline: none;
+  }
+
+  .router-enter-active{
+    position: relative;
+    opacity: 0; /*js执行到到timeout函数后再出现，防止页面闪烁*/
+  }
+  .router-exit-active{
+    position: relative;
+    z-index: 1000;
+  }
+
+}
+

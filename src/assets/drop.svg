@@ -1,0 +1,15 @@
+<svg id="S_DropDownMenu_15x9_N_D_2x" data-name="S_DropDownMenu_15x9_N_D@2x" xmlns="http://www.w3.org/2000/svg" width="30" height="18" viewBox="0 0 30 18">
+  <defs>
+    <style>
+      .fill {
+        fill: #000;
+        fill-rule: evenodd;
+        opacity: 0.65;
+      }
+    </style>
+  </defs>
+  <title>S_DropDownMenu_15x9_N_D@2x</title>
+  <path id="Fill2" class="fill" d="M8.5,2h15a0.5,0.5,0,0,1,.5.5v1a0.5,0.5,0,0,1-.5.5H8.5A0.5,0.5,0,0,1,8,3.5v-1A0.5,0.5,0,0,1,8.5,2Z"/>
+  <path id="Fill4" class="fill" d="M8.5,8h15a0.5,0.5,0,0,1,.5.5v1a0.5,0.5,0,0,1-.5.5H8.5A0.5,0.5,0,0,1,8,9.5v-1A0.5,0.5,0,0,1,8.5,8Z"/>
+  <path id="Fill5" class="fill" d="M8.5,14h15a0.5,0.5,0,0,1,.5.5v1a0.5,0.5,0,0,1-.5.5H8.5A0.5,0.5,0,0,1,8,15.5v-1A0.5,0.5,0,0,1,8.5,14Z" />
+  </svg>
