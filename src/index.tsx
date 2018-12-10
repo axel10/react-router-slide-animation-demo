@@ -71,16 +71,15 @@ history.listen((() => {
 
     if (action === 'PUSH' || isForward) {
       positionRecord[lastPathname] = oldScrollTop; // 根据之前记录的pathname来记录旧页面滚动位置
-      window.scrollTo({ top: 0 });  // 如果是点击前进按钮或者是history.push则滚动位置归零
+      window.scrollTo(0,0);  // 如果是点击前进按钮或者是history.push则滚动位置归零
 
       if (action === 'PUSH') {
         historyKeys = historyKeys.slice(0, currentHistoryPosition + 1);
         historyKeys.push(currentRouterKey); // 如果是history.push则清除无用的key
       }
     } else {
-      window.scrollTo({ // 如果是点击回退按钮或者调用history.pop、history.replace则让页面滚动到之前记录的位置
-        top: positionRecord[currentPath]
-      });
+      // 如果是点击回退按钮或者调用history.pop、history.replace则让页面滚动到之前记录的位置
+      window.scrollTo(0,positionRecord[currentPath]);
 
       // 删除滚动记录列表中所有子路由滚动记录
       for (const key in positionRecord) {

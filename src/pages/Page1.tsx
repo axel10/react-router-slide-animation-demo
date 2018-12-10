@@ -9,9 +9,11 @@ export default class Page1 extends React.Component {
 
   public render() {
     return (
-      <div className={'Page1'} style={{height:2000}}>
+      <div className={'Page1'} style={{height: 2000}} onClick={() => {
+        console.log(1);
+      }}>
         page1
-        <Link to={'/2'} style={{display:'block',marginTop:1500}}>
+        <Link to={'/2'} style={{display: 'block', marginTop: 1500}}>
           123
         </Link>
       </div>
